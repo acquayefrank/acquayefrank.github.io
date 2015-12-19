@@ -3,7 +3,8 @@
 <head>
     <title>Larry's World</title>
     <!-- Import matrialize.css -->
-    <link rel="stylesheet" type="text/css" href="css/materialize.min.css" media="screen,projection">
+    <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
     <!-- My CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -12,11 +13,17 @@
     <nav>
         <div class="nav-wrapper blue darken-1">
             <a href="#" class="brand-logo">Larry</a>
-            <ul id="nav-mobile" class="right side-nav">
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Projects</a></li>
+            <a class="button-collapse" href="#" data-activates="mobile-demo"><i class="mdi-navigation-menu"></i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="files/Frank_Acquaye-CV.pdf">Resume</a></li>
+                <li><a href="https://github.com/acquayefrank">Projects</a></li>
             </ul>
-            <a class="button-collapse" href="#" data-activates="nav-mobile"><i class="mdi-navigation-menu"></i></a>
+            <ul id="mobile-demo" class="side-nav">
+                <li><a href="files/Frank_Acquaye-CV.pdf">Resume</a></li>
+                <li><a href="https://github.com/acquayefrank">Projects</a></li>
+            </ul>
+
+
         </div>
     </nav>
     <div class="row">
@@ -43,14 +50,22 @@
                     <a href="https://twitter.com/ACQUAYE_FRANK">Twitter</a>
                     <a href='https://www.facebook.com/acquaye.frank'>Facebook</a>
                     <a href='https://gh.linkedin.com/pub/frank-acquaye/35/997/a66'>LinkedIn</a>
+                    <a href='https://acquayefrank.wordpress.com/'>Blog</a>
                     <a href='mailto:acquayefrank@gmail.com'>Send Mail</a>
                 </div>
             </div>
         </div>
+        <div class="col s12 m6" style="margin-top:50px;">
+            <blockquote>
+                <h2>Obey God and leave the consequences to him.<h2>
+                <h6>--Charles Stanley</h6>
+            </blockquote>
+        </div>
     </div>
     <!-- Import jQuery before materialize.js -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
     <!-- My js -->
     <script type="text/javascript" src="js/script.js"></script>
 </body>
