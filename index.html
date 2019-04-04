@@ -1,79 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Larry's World</title>
-    <!-- Import matrialize.css -->
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
-    <!-- My CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Hello World :)</title>
+    <meta name="description" content="Peeping into the mind of a hopeful skeptic">
+    <meta name="author" content="Larry">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.jpg">
+
 </head>
 
 <body>
-    <!-- Header -->
-    <nav>
-        <div class="nav-wrapper blue darken-1">
-            <a href="#" class="brand-logo">Larry</a>
-            <a class="button-collapse" href="#" data-activates="mobile-demo"><i class="mdi-navigation-menu"></i></a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="files/Frank_Acquaye-CV.pdf">Resume</a></li>
-                <li><a href="https://github.com/acquayefrank">Projects</a></li>
-            </ul>
-            <ul id="mobile-demo" class="side-nav">
-                <li><a href="files/Frank_Acquaye-CV.pdf">Resume</a></li>
-                <li><a href="https://github.com/acquayefrank">Projects</a></li>
-            </ul>
 
-
-        </div>
-    </nav>
-    <div class="row">
-        <div class="col s12 m6">
-            <div class="card">
-                <div class="card-image">
-                    <img src="img/profile-picture.jpg">
-                </div>
-                <div class="card-content">
-                    <blockquote>
-                        <p>
-                            <h5>Hi I'm <strong>Larry</strong></h5>
-                        </p>
-                        <p><em>A Computer Scientist</em></p>
-                    </blockquote>
-                </div>
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+        <div class="row" style="margin-top: 15%">
+            <div class="one-half column">
+                <h4 style="color:blue">PRINT <span style="color:red">5</span></h4>
+                <p>The most important piece of code I ever wrote, was a <em>BASIC</em> program that printed the number 5
+                    five
+                    times on the screen. :)</p>
+                <p>I still remeber the feeling I had when my code finally worked- That's when I fell in love with
+                    programming, better yet all things computer science. To know more about my various interests follow
+                    me on these <b>platforms:</b></p>
             </div>
+            <div class="one-half column"><img src="images/profile-picture.jpg"></div>
         </div>
-        <div class="col s12 m6">
-            <div class="card blue-grey darken-1">
-                <div class="card-content white-text">
-                    <span class="card-title">Hello World!</span>
-                    <p>I'm a Computer Scientist who is passionate about Machine Learning, in the application domains of Business Intelligence, Robotics and IoT:)<br></p>
-                </div>
-                <div class="card-action">
-                    <a href="http://instagram.com/acquaye.frank/">Instagram</a>
-                    <a href="https://twitter.com/ACQUAYE_FRANK">Twitter</a>
-                    <a href='https://www.facebook.com/acquaye.frank'>Facebook</a>
-                    <a href='https://gh.linkedin.com/pub/frank-acquaye/35/997/a66'>LinkedIn</a>
-                    <a href='https://acquayefrank.wordpress.com/'>Blog</a>
-                    <a href='mailto:acquayefrank@gmail.com'>Send Mail</a>
-                </div>
-            </div>
+        <hr>
+        <!-- columns should be the immediate child of a .row -->
+        <div class="row" style="text-align:center">
+            <div class="one-third column"><a href='https://acquayefrank.wordpress.com/'>Blog</a></div>
+            <div class="one-third column"><a href="https://github.com/acquayefrank">Projects</a></div>
+            <div class="one-third column"><a href="files/Frank_Acquaye-CV.pdf">Resume</a></div>
         </div>
-        <div class="col s12 m6" style="margin-top:50px;">
-            <blockquote>
-                <h2>Obey God and leave the consequences to him.
-                    <h2>
-                        <h6>--Charles Stanley</h6>
-            </blockquote>
-        </div>
+        <hr>
     </div>
-    <!-- Import jQuery before materialize.js -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
-    <!-- My js -->
-    <script type="text/javascript" src="js/script.js"></script>
+
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 
 </html>
